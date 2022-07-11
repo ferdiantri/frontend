@@ -69,7 +69,7 @@ export default function DetailPesananScreen({ navigation, route }){
                                 setLogPenjualan(response.data.barang.map(item => item.log_penjualan)[0]);
                                 console.log(barang);
 
-                                const api = 'b8953808028cca5f0d1d187533eb05df99d6fd07f75ae99370382ddc5155fc45'
+                                const api = 'API KEY BINDERBYTE'
                                 const courier = response.data.barang.map(item => item.jasa_pengiriman)[0];
                                 const nomor_resi = response.data.barang.map(item => item.nomor_resi)[0];
                                 axios.get(`https://api.binderbyte.com/v1/track?api_key=${api}&courier=${courier}&awb=${nomor_resi}`).then(response => {
