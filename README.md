@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+#Ketika Error
+1. Button tidak respon, Solusi ubah api pada axios. Sesuaikan dengan API backend. Defaultnya yaitu http://localhost/ namun bisa juga diubah.
