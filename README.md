@@ -8,4 +8,4 @@ Instalasi Android (React Native)
 
 #Ketika Error
 1. Error Klik Button, Solusi ganti API menggunakan IP komputermu contoh di axios tertulis "192.168.43.22". Ganti menjadi IP milik anda.
-2. Error daftar jasa pengiriman tidak tampil, Solusi daftar akun di RajaOngkir.com dan salin API KEY di android->src->screen->PenjualanScreen.js
+2. Error daftar jasa pengiriman tidak tampil, Solusi daftar akun di RajaOngkir.com dan salin API KEY di android->src->screens->PembelianScreen.js
