@@ -62,3 +62,13 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+#Langkah Instalasi
+1. Install XAMPP dan jalankan server dengan Start Apache dan MySQL
+2. Masuk ke Gitbash dan jalankan perintah "php artisan migrate", sebelumnya harus membuat database di phpmyadmin.
+3. Jalankan server dengan "php artisan serve"
+
+#Ketika Error
+1. Error tidak bisa login, solusinya menjalankan perintah "php artisan passport:install".
+2. Error tidak bisa memilih pembayaran, solusinya daftar akun di Xendit.com dan Salin API KEY di folder app->http->controller->PenjualanController.php.
+3. Error tidak bisa menambahkan barang, solusinya install ImageManager.
